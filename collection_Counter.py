@@ -28,7 +28,7 @@ def raghu():
   # number of customers
   N = int(input())
 
-  # #money earned
+  #money earned
   total = 0
 
   for _ in range(1, N + 1):
