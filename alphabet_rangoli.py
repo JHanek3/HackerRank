@@ -35,5 +35,5 @@ def print_rangoli(size):
     row_string = '-'.join(row_final)
     print(row_string.center(max_width, "-"))
 
-print_rangoli(3)
-print_rangoli(5)
+# print_rangoli(3)
+print_rangoli(26)
