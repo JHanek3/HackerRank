@@ -18,7 +18,6 @@ y = int(input())
 
 def find_angle(ab , bc):
   hypotenuse = math.hypot(ab, bc)
-  mc = hypotenuse / 2
   degree = round(math.degrees(math.acos(bc / hypotenuse)))
   degree_sign = chr(176)
   print("{}{}".format(degree, degree_sign))
